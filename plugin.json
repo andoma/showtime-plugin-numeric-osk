@@ -1,11 +1,11 @@
 {
   "type": "views",
-  "id": "custombg",
+  "id": "osk_numeric",
   "showtimeVersion": "4.5.283",
   "version": "1.0",
   "author": "Andreas Öman",
   "title": "Numeric on screen keyboard",
-  "category": "glwview",
+  "category": "glwosk",
   "glwviews": [{
     "class": "osk",
     "title": "Numeric keyboard",
