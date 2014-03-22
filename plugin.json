@@ -1,0 +1,14 @@
+{
+  "type": "views",
+  "id": "custombg",
+  "showtimeVersion": "4.5.283",
+  "version": "1.0",
+  "author": "Andreas Öman",
+  "title": "Numeric on screen keyboard",
+  "category": "glwview",
+  "glwviews": [{
+    "class": "osk",
+    "title": "Numeric keyboard",
+    "file": "numeric.view"
+  }]
+}

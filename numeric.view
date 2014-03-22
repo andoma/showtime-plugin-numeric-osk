@@ -1,0 +1,34 @@
+#import "skin://osk/common.view"
+
+widget(container_y, {
+
+  spacing: 4;
+
+  widget(container_x, {
+    spacing: 4;
+    height: $ui.size * 2;
+    KEY("§", "½");
+    KEY("1", "!");
+    KEY("2", '"');
+    KEY("3", "#");
+    KEY("4", "$");
+    KEY("5", "%");
+    KEY("6", "&");
+    KEY("7", "/");
+    KEY("8", "(");
+    KEY("9", ")");
+    KEY("0", "=");
+    KEY("+", "?");
+    KEY("'", "@");
+    ACTION("BS", targetedEvent("input", Backspace), 2);
+  });
+
+
+  widget(container_x, {
+    spacing: 4;
+    height: $ui.size * 2;
+    space(0.75);
+    KEY_("Space", " ");
+    space(1);
+  });
+});
