@@ -6,6 +6,7 @@
   "author": "Andreas Öman",
   "title": "Numeric on screen keyboard",
   "category": "glwosk",
+  "icon": "keyboard.jpg",
   "glwviews": [{
     "class": "osk",
     "title": "Numeric keyboard",
